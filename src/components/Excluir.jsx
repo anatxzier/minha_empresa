@@ -1,8 +1,9 @@
-import { ModalBody, ModalFooter, ModalHeader } from 'react-bootstrap'
-import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
-import { useState } from 'react'
-import { GiTrashCan } from "react-icons/gi";
+import React, { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import { GiTrashCan } from 'react-icons/gi';
+import axios from 'axios';
+
 
 
 function Excluir({id}){
